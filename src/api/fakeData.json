@@ -1,0 +1,610 @@
+{
+    "id": 6,
+    "startDate": "2020-00-01",
+    "endDate": "2099-12-31",
+    "sections": [
+        {
+            "id": 16,
+            "label": "Burgers",
+            "description": "Watching your carbs? Go bun-free and replace our wholemeal buns with a lettuce wrap!",
+            "displayOrder": 0,
+            "disabled": false,
+            "disabledReason": "Only available from 1st of May",
+            "items": [
+                {
+                    "id": 116,
+                    "label": "Rasa Sayang Burg",
+                    "description": "Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.<br/><br/>Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.<br/><br/>*Patty is NOT allium-free. You can opt for allium-free patty. <br/>*Option to remove onions.",
+                    "displayOrder": 0,
+                    "unitPriceFractional": 1390,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 111,
+                    "label": "Chili Krab Burg (Award winner!)",
+                    "description": "A yummy tribute to a favourite local dish! This local highlight features a crunchy, gluten-free patty topped with a sweet and tangy chili crab sauce, romaine lettuce, coriander, finely shredded farm-fresh cabbage and a generous scoop of creamy vegan aioli. It's deliciously 'shiok'!<br/><br/>*Option to have sauce without onion and garlic, kindly select 'Alium-Free Sauce' option",
+                    "displayOrder": 3,
+                    "unitPriceFractional": 1190,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/9ts11rmwbsb72lso8ige3qxwzbw5",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 115,
+                    "label": "Hawaiian Teriyaki Burger",
+                    "description": "GMO-free grilled plant-protein patty, pan-grilled luscious pineapple slice, Japanese teriyaki sauce and artisan bun.<br/><br/>*onions are optional, kindly request",
+                    "displayOrder": 2,
+                    "unitPriceFractional": 1190,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/qmibf7boh6m2mo158o9onuujd7nf",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 119,
+                    "label": "Avocado Beetroot Burger (Best-seller!)",
+                    "description": "Fresh avocado, beetroot, crispy GMO-free plant-protein patty, fresh lettuce, Aussie onion, creole tomato, and artisan bun. <br/><br/>*onions are optional, kindly request<br/>",
+                    "displayOrder": 1,
+                    "unitPriceFractional": 1190,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/7uodsnlu4ba8ukhxw9f3y5y7oqzv",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 123,
+                    "label": "Char-Grilled Satay Burger",
+                    "description": "Handcrafted with house-made satay sauce , GMO-free patty, Romaine lettuce, fresh cucumbers, pineapple slice and onion rings. <br/><br/>*contains ONION and GARLIC, contains peanuts",
+                    "displayOrder": 4,
+                    "unitPriceFractional": 1190,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/1u8q0j68on4e867zhllv4y3w78z6",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 127,
+                    "label": "Creamy Shrooms Burger",
+                    "description": "GMO-free plant-protein patty, fresh lettuce, dairy-free cream sauce, fresh button mushrooms, zesty pepper, and artisan bun.<br/><br/>*does not contain onion/garlic",
+                    "displayOrder": 5,
+                    "unitPriceFractional": 990,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/xap3mlqpofxe3jr1gn20jcqnkp53",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 131,
+                    "label": "Smoky BBQ Burger (Best-seller!)",
+                    "description": "Pan-grilled GMO-free plant-protein patty, smoky bbq sauce, garden-fresh lettuce, tomato, fresh onion rings, and wholemeal bun.<br/><br/>*contains ONIONS and GARLIC",
+                    "displayOrder": 6,
+                    "unitPriceFractional": 1190,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/tew3fr7n9uy8ggtlz44gyec3q6zs",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 135,
+                    "label": "Mustang Relish Burger",
+                    "description": "Robust wholemeal bun, GMO-free plant-protein patty, fat-free mustard, sliced gherkin pickles, Aussie red onion rings, and artisan bun.<br/><br/>*onions are optional",
+                    "displayOrder": 7,
+                    "unitPriceFractional": 990,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/hycn4jst79kxkbvg6b1simtvuetv",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 139,
+                    "label": "Tangy Tartar Burger",
+                    "description": "GMO-free plant-protein patty, cholesterol-free tartar sauce, fresh cucumber, pickles, Romaine lettuce, and wholemeal multigrain bun.<br/><br/>*does not contain onion/garlic",
+                    "displayOrder": 8,
+                    "unitPriceFractional": 990,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/lx3gk32sx7250wpullvbtpa66zc0",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 143,
+                    "label": "Cracked Mayo Burger (Best-seller!)",
+                    "description": "Crispy yet juicy vegan patty on a bed of fresh lettuce, dripping with dairy-free cream sauce, topped with fresh button mushrooms and zesty pepper, all stuffed in a wholemeal bun. Doesn't get any better than that. <br/><br/>*does not contain onion/garlic<br/><br/>Note: We will be using grilled mushroom patty for Cracked Mayo Burg beginning today (July 13, 2020) until further notice. Thank you for your understanding!",
+                    "displayOrder": 9,
+                    "unitPriceFractional": 890,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/vcldz5a7gtq0serqjy3gfhw2tht0",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 147,
+                    "label": "Signature Slider",
+                    "description": "A sweet signature crispy slider topped with creamy vegan mayo and fresh lettuce!",
+                    "displayOrder": 10,
+                    "unitPriceFractional": 590,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/ixm6eddbnusz8gooff1cxxvjm74o",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 170,
+                    "label": "Kiddie Meal",
+                    "description": "A sweet meal for kids! Crispy slider topped with creamy vegan mayo and fresh lettuce, comes with selection of fries, broccoli, cookie, and a chiller.<br/><br/>*does not contain onion/garlic",
+                    "displayOrder": 11,
+                    "unitPriceFractional": 880,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/wjulnojsiz06y2534q19goyfuq9j",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                }
+            ],
+            "subSections": []
+        },
+        {
+            "id": 7,
+            "label": "Sidekicks Updated",
+            "description": "",
+            "displayOrder": 0,
+            "disabled": false,
+            "disabledReason": null,
+            "items": [
+                {
+                    "id": 298,
+                    "label": "Coconut Fries",
+                    "description": "Enjoy these delicious Coconut Fries, available as part of our Seasonal Special for Rasa Sayang Burg.",
+                    "displayOrder": 0,
+                    "unitPriceFractional": 590,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/ds5coi5xlr6f6hjynrptw7d23zzj",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                }
+            ],
+            "subSections": []
+        },
+        {
+            "id": 9,
+            "label": "Bundles",
+            "description": "",
+            "displayOrder": 0,
+            "disabled": false,
+            "disabledReason": null,
+            "items": [
+                {
+                    "id": 378,
+                    "label": "Bundle Meal for 2-4 pax!",
+                    "description": "This Bundle is a 100% Plant-based Meal Set Good for 2-4 people!<br/><br/>This Meal includes:<br/><br/>Burger of Choice (x2)<br/>Specialty Fries (L)<br/>Shroom Pops OR Smoked Franks<br/>Drinks (x2)",
+                    "displayOrder": 0,
+                    "unitPriceFractional": 3800,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/h98slwnzyo256e3jco1ny5dk5yxg",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 313,
+                    "label": "Bundle Meal for 4-8 pax!",
+                    "description": "This Bundle is a 100% Plant-based Meal Set Good for 4-8 people!<br/><br/>This Meal includes:<br/><br/>Burger of Choice (x4)<br/>Specialty Fries (L)<br/>Smoked Franks<br/>Shroom Pops<br/>Sizzlin' Broccoli<br/>Brownie (x2)<br/>Drinks (x4)",
+                    "displayOrder": 1,
+                    "unitPriceFractional": 7800,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/3ko3wy3z6wmwq40piwu5d1dowqll",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 350,
+                    "label": "Bundle Meal for 5-10 pax!",
+                    "description": "<p>This Bundle is a 100% Plant-based Meal Set Good for 5-10 people!<br><br>This Meal includes:<br><br><strong>Burger of Choice (x5)</strong><br>Specialty Fries (L)<br>Smoked Franks<br>Shroom Pops<br>Sizzlin' Broccoli (R)<br>Brownie (x3)<br>Drinks (x5)</p>",
+                    "displayOrder": 2,
+                    "unitPriceFractional": 9800,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/p1riybifkwah7l9ka1vb6ye9ri92",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 319,
+                    "label": "1",
+                    "description": null,
+                    "displayOrder": 3,
+                    "unitPriceFractional": 1200,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/ij64afkjdpqxi6dphebofchydmtc",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 39,
+                    "label": "Avocado Beetroot Burger (Best-seller!)",
+                    "description": "Fresh avocado, beetroot, crispy GMO-free plant-protein patty, fresh lettuce, Aussie onion, creole tomato, and artisan bun. <br/><br/>*onions are optional, kindly request<br/>",
+                    "displayOrder": 6,
+                    "unitPriceFractional": 1190,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/7uodsnlu4ba8ukhxw9f3y5y7oqzv",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                }
+            ],
+            "subSections": []
+        },
+        {
+            "id": 10,
+            "label": "Drinks",
+            "description": "",
+            "displayOrder": 0,
+            "disabled": false,
+            "disabledReason": null,
+            "items": [
+                {
+                    "id": 486,
+                    "label": "Rose Bandung",
+                    "description": null,
+                    "displayOrder": 0,
+                    "unitPriceFractional": 280,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/q19p9ntt51f68kh57jp464s986cq",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 487,
+                    "label": "Pokka Jasmine Tea",
+                    "description": null,
+                    "displayOrder": 1,
+                    "unitPriceFractional": 240,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/t4gsm2tj57gfsiql8msvz954fazh",
+                    "itemStock": {
+                        "quantityLeft": 0
+                    }
+                },
+                {
+                    "id": 488,
+                    "label": "Seasonal Chillers",
+                    "description": null,
+                    "displayOrder": 2,
+                    "unitPriceFractional": 280,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/vf6l0km5d98a0m4m8llfcpzcbs27",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                },
+                {
+                    "id": 492,
+                    "label": "JUST Water 100% Spring Water",
+                    "description": null,
+                    "displayOrder": 3,
+                    "unitPriceFractional": 280,
+                    "currency": "SGD",
+                    "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/s4fr948j7t486v57ndq8cvorl0tp",
+                    "itemStock": {
+                        "quantityLeft": 999
+                    }
+                }
+            ],
+            "subSections": []
+        },
+        {
+            "id": 11,
+            "label": "Guilt-Free Desserts",
+            "description": "",
+            "displayOrder": 0,
+            "disabled": false,
+            "disabledReason": null,
+            "items": [],
+            "subSections": [
+                {
+                    "id": 56,
+                    "label": "Burgers",
+                    "description": "Watching your carbs? Go bun-free and replace our wholemeal buns with a lettuce wrap!",
+                    "displayOrder": 0,
+                    "disabled": false,
+                    "disabledReason": null,
+                    "items": [
+                        {
+                            "id": 556,
+                            "label": "Rasa Sayang Burg",
+                            "description": "Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.<br/><br/>Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.<br/><br/>*Patty is NOT allium-free. You can opt for allium-free patty. <br/>*Option to remove onions.",
+                            "displayOrder": 0,
+                            "unitPriceFractional": 1390,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt",
+                            "itemStock": {
+                                "quantityLeft": 0
+                            }
+                        },
+                        {
+                            "id": 511,
+                            "label": "Chili Krab Burg (Award winner!)",
+                            "description": "A yummy tribute to a favourite local dish! This local highlight features a crunchy, gluten-free patty topped with a sweet and tangy chili crab sauce, romaine lettuce, coriander, finely shredded farm-fresh cabbage and a generous scoop of creamy vegan aioli. It's deliciously 'shiok'!<br/><br/>*Option to have sauce without onion and garlic, kindly select 'Alium-Free Sauce' option",
+                            "displayOrder": 1,
+                            "unitPriceFractional": 1190,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/9ts11rmwbsb72lso8ige3qxwzbw5",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 515,
+                            "label": "Hawaiian Teriyaki Burger",
+                            "description": "GMO-free grilled plant-protein patty, pan-grilled luscious pineapple slice, Japanese teriyaki sauce and artisan bun.<br/><br/>*onions are optional, kindly request",
+                            "displayOrder": 2,
+                            "unitPriceFractional": 1190,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/qmibf7boh6m2mo158o9onuujd7nf",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 519,
+                            "label": "Avocado Beetroot Burger (Best-seller!)",
+                            "description": "Fresh avocado, beetroot, crispy GMO-free plant-protein patty, fresh lettuce, Aussie onion, creole tomato, and artisan bun. <br/><br/>*onions are optional, kindly request<br/>",
+                            "displayOrder": 3,
+                            "unitPriceFractional": 1190,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/7uodsnlu4ba8ukhxw9f3y5y7oqzv",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 523,
+                            "label": "Char-Grilled Satay Burger",
+                            "description": "Handcrafted with house-made satay sauce , GMO-free patty, Romaine lettuce, fresh cucumbers, pineapple slice and onion rings. <br/><br/>*contains ONION and GARLIC, contains peanuts",
+                            "displayOrder": 4,
+                            "unitPriceFractional": 1190,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/1u8q0j68on4e867zhllv4y3w78z6",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 527,
+                            "label": "Creamy Shrooms Burger",
+                            "description": "GMO-free plant-protein patty, fresh lettuce, dairy-free cream sauce, fresh button mushrooms, zesty pepper, and artisan bun.<br/><br/>*does not contain onion/garlic",
+                            "displayOrder": 5,
+                            "unitPriceFractional": 990,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/xap3mlqpofxe3jr1gn20jcqnkp53",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 531,
+                            "label": "Smoky BBQ Burger (Best-seller!)",
+                            "description": "Pan-grilled GMO-free plant-protein patty, smoky bbq sauce, garden-fresh lettuce, tomato, fresh onion rings, and wholemeal bun.<br/><br/>*contains ONIONS and GARLIC",
+                            "displayOrder": 6,
+                            "unitPriceFractional": 1190,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/tew3fr7n9uy8ggtlz44gyec3q6zs",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 535,
+                            "label": "Mustang Relish Burger",
+                            "description": "Robust wholemeal bun, GMO-free plant-protein patty, fat-free mustard, sliced gherkin pickles, Aussie red onion rings, and artisan bun.<br/><br/>*onions are optional",
+                            "displayOrder": 7,
+                            "unitPriceFractional": 990,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/hycn4jst79kxkbvg6b1simtvuetv",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 539,
+                            "label": "Tangy Tartar Burger",
+                            "description": "GMO-free plant-protein patty, cholesterol-free tartar sauce, fresh cucumber, pickles, Romaine lettuce, and wholemeal multigrain bun.<br/><br/>*does not contain onion/garlic",
+                            "displayOrder": 8,
+                            "unitPriceFractional": 990,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/lx3gk32sx7250wpullvbtpa66zc0",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 543,
+                            "label": "Cracked Mayo Burger (Best-seller!)",
+                            "description": "Crispy yet juicy vegan patty on a bed of fresh lettuce, dripping with dairy-free cream sauce, topped with fresh button mushrooms and zesty pepper, all stuffed in a wholemeal bun. Doesn't get any better than that. <br/><br/>*does not contain onion/garlic<br/><br/>Note: We will be using grilled mushroom patty for Cracked Mayo Burg beginning today (July 13, 2020) until further notice. Thank you for your understanding!",
+                            "displayOrder": 9,
+                            "unitPriceFractional": 890,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/vcldz5a7gtq0serqjy3gfhw2tht0",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 547,
+                            "label": "Signature Slider",
+                            "description": "A sweet signature crispy slider topped with creamy vegan mayo and fresh lettuce!",
+                            "displayOrder": 10,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/ixm6eddbnusz8gooff1cxxvjm74o",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 570,
+                            "label": "Kiddie Meal",
+                            "description": "A sweet meal for kids! Crispy slider topped with creamy vegan mayo and fresh lettuce, comes with selection of fries, broccoli, cookie, and a chiller.<br/><br/>*does not contain onion/garlic",
+                            "displayOrder": 11,
+                            "unitPriceFractional": 880,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/wjulnojsiz06y2534q19goyfuq9j",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 57,
+                    "label": "Sidekicks Updated",
+                    "description": "",
+                    "displayOrder": 0,
+                    "disabled": false,
+                    "disabledReason": null,
+                    "items": [
+                        {
+                            "id": 5990,
+                            "label": "Coconut Fries",
+                            "description": "Enjoy these delicious Coconut Fries, available as part of our Seasonal Special for Rasa Sayang Burg.",
+                            "displayOrder": 0,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/ds5coi5xlr6f6hjynrptw7d23zzj",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 599,
+                            "label": "Phish Fingers!",
+                            "description": "It's crunchy outside, succulent and tender inside! <br/><br/>Phish Fingers will give you a fish n' chips experience that you've never had: an authentic flavor of the sea in 100% plant-based form!<br/><br/>Enjoy this sumptuous, filling treat with zero cholesterol!<br/><br/>1x Phish Fingers with Tartar sauce<br/><br/>*No garlic/onion<br/>",
+                            "displayOrder": 1,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/fbc9oa6j55yr0kh4b9n0isn9ikv5",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5110,
+                            "label": "Seaweed Fries",
+                            "description": "Golden and fluffy, sprinkled with 100% organic seaweed flakes for that extra oomph!",
+                            "displayOrder": 2,
+                            "unitPriceFractional": 290,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/4buckkdk75xt5851lkl4mzttroo9",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5121,
+                            "label": "Sizzlin' Broccoli",
+                            "description": "Crisp-tender char-grilled broccoli dressed sizzled with a slight kick of salt.",
+                            "displayOrder": 3,
+                            "unitPriceFractional": 290,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/2vo7lqiheun3u3avh4a42wp7s3dp",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5132,
+                            "label": "Shrooms Pops",
+                            "description": "Crispy on the edges, savoury, herbed, warm in the center, these golden treats bring over-the-top flavour to your appetizer spread!",
+                            "displayOrder": 4,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/ctnnapkmfq78uixinbshi9p2thw2",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5143,
+                            "label": "Smoked Franks",
+                            "description": "Succulent and tender with a delicious smokey grilled taste and lettuce on the side for a truly unique mix of flavours.",
+                            "displayOrder": 8,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/mhtcmpd21zahgernqaqz2uwxj1nd",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5154,
+                            "label": "Granny's Comfort Soup",
+                            "description": "Cozy up to the feel-good bowl of nourishing minestrone, granny's original recipe is packed with flavour and made with over 12 different ingredients. <br/><br/>*contains onion/garlic",
+                            "displayOrder": 9,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/q0kywwaqanz1hqqha478tma58exv",
+                            "itemStock": {
+                                "quantityLeft": 0
+                            }
+                        },
+                        {
+                            "id": 5157,
+                            "label": "Loaded Shrooms Fries",
+                            "description": "Crispy seaweed fries topped with our house-made creamy mushroom sauce, caramelized onion, and smoky BBQ sauce",
+                            "displayOrder": 7,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/4txbin1uh72uo715p9n503w0it8y",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5160,
+                            "label": "Creamy Garlic Fries",
+                            "description": "Crispy fries drizzled with dairy free garlic mayo and topped with minced garlic",
+                            "displayOrder": 5,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/eh3n4mjoxen8ww5o2f5ursqwlfe6",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        },
+                        {
+                            "id": 5163,
+                            "label": "White Truffle Fries",
+                            "description": "Thick cut fries with a posh mood, drizzled with luxurious white truffle oil and topped with dairy free Parmesan cheese",
+                            "displayOrder": 6,
+                            "unitPriceFractional": 590,
+                            "currency": "SGD",
+                            "imageUrl": "https://storage.googleapis.com/kaluga-core-active-storage/trbabzjpsbyaq56w1yw5foi81j6w",
+                            "itemStock": {
+                                "quantityLeft": 999
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

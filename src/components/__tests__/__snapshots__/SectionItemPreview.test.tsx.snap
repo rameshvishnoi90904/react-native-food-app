@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FoodItemPreview correctly with outer section 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "paddingVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 32,
+      }
+    }
+  >
+    Burgers
+  </Text>
+  <Text
+    style={{}}
+  >
+    (
+    This is Outer Section Title
+    )
+  </Text>
+</View>
+`;
+
+exports[`renders FoodItemPreview correctly without outer section 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "paddingVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 32,
+      }
+    }
+  >
+    Burgers
+  </Text>
+</View>
+`;

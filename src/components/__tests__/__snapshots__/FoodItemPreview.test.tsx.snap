@@ -1,0 +1,519 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FoodItemPreview correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "white",
+      "borderColor": "#fff",
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "elevation": 2,
+      "flexDirection": "column",
+      "height": 350,
+      "marginBottom": 10,
+      "marginHorizontal": 5,
+      "opacity": 1,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+      "width": 355,
+    }
+  }
+  testID="food-card-116"
+>
+  <Image
+    src="https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt"
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "height": 333,
+        "resizeMode": "contain",
+        "width": 353,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "flex": 1,
+        "height": 60,
+        "paddingHorizontal": 12,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "fontSize": 16,
+          "marginBottom": 6,
+        }
+      }
+    >
+      Rasa Sayang Burg
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        {
+          "flex": 1,
+          "fontSize": 12,
+          "lineHeight": 19,
+        }
+      }
+    >
+      Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.&lt;br/&gt;&lt;br/&gt;Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.&lt;br/&gt;&lt;br/&gt;*Patty is NOT allium-free. You can opt for allium-free patty. &lt;br/&gt;*Option to remove onions.
+    </Text>
+    <Text
+      style={
+        {
+          "marginVertical": 12,
+        }
+      }
+    >
+      SGD
+       
+      13.9
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgb(250, 85, 83)",
+        "borderBottomLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "height": 40,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+    testID="add-cart-button-116"
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontWeight": "500",
+        }
+      }
+    >
+      Add
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`renders FoodItemPreview for sectionDisabled 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "white",
+      "borderColor": "#fff",
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "elevation": 2,
+      "flexDirection": "column",
+      "height": 350,
+      "marginBottom": 10,
+      "marginHorizontal": 5,
+      "opacity": 1,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+      "width": 355,
+    }
+  }
+  testID="food-card-116"
+>
+  <Image
+    src="https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt"
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "height": 333,
+        "resizeMode": "contain",
+        "width": 353,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "flex": 1,
+        "height": 60,
+        "paddingHorizontal": 12,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "fontSize": 16,
+          "marginBottom": 6,
+        }
+      }
+    >
+      Rasa Sayang Burg
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        {
+          "flex": 1,
+          "fontSize": 12,
+          "lineHeight": 19,
+        }
+      }
+    >
+      Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.&lt;br/&gt;&lt;br/&gt;Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.&lt;br/&gt;&lt;br/&gt;*Patty is NOT allium-free. You can opt for allium-free patty. &lt;br/&gt;*Option to remove onions.
+    </Text>
+    <Text
+      style={
+        {
+          "marginVertical": 12,
+        }
+      }
+    >
+      SGD
+       
+      13.9
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgb(250, 85, 83)",
+        "borderBottomLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "height": 40,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontWeight": "500",
+        }
+      }
+    >
+      Not available
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(265,265,265,0.4)",
+        "height": 350,
+        "position": "absolute",
+        "top": 0,
+        "width": 355,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`renders FoodItemPreview for sold out 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "white",
+      "borderColor": "#fff",
+      "borderRadius": 4,
+      "borderWidth": 1,
+      "elevation": 2,
+      "flexDirection": "column",
+      "height": 350,
+      "marginBottom": 10,
+      "marginHorizontal": 5,
+      "opacity": 1,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.2,
+      "shadowRadius": 1.41,
+      "width": 355,
+    }
+  }
+  testID="food-card-116"
+>
+  <Image
+    src="https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt"
+    style={
+      {
+        "backgroundColor": "#fff",
+        "borderTopLeftRadius": 4,
+        "borderTopRightRadius": 4,
+        "height": 333,
+        "resizeMode": "contain",
+        "width": 353,
+      }
+    }
+  />
+  <View
+    style={
+      {
+        "flex": 1,
+        "height": 60,
+        "paddingHorizontal": 12,
+        "paddingTop": 15,
+      }
+    }
+  >
+    <Text
+      numberOfLines={2}
+      style={
+        {
+          "fontSize": 16,
+          "marginBottom": 6,
+        }
+      }
+    >
+      Rasa Sayang Burg
+    </Text>
+    <Text
+      numberOfLines={3}
+      style={
+        {
+          "flex": 1,
+          "fontSize": 12,
+          "lineHeight": 19,
+        }
+      }
+    >
+      Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.&lt;br/&gt;&lt;br/&gt;Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.&lt;br/&gt;&lt;br/&gt;*Patty is NOT allium-free. You can opt for allium-free patty. &lt;br/&gt;*Option to remove onions.
+    </Text>
+    <Text
+      style={
+        {
+          "marginVertical": 12,
+        }
+      }
+    >
+      SGD
+       
+      13.9
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgb(250, 85, 83)",
+        "borderBottomLeftRadius": 4,
+        "borderBottomRightRadius": 4,
+        "height": 40,
+        "justifyContent": "center",
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontWeight": "500",
+        }
+      }
+    >
+      Sold out
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "backgroundColor": "rgba(265,265,265,0.4)",
+        "height": 350,
+        "position": "absolute",
+        "top": 0,
+        "width": 355,
+      }
+    }
+  />
+</View>
+`;

@@ -55,7 +55,7 @@ const MenuScreen = ({navigation}: Props) => {
                         <FoodItemPreview 
                             cartItem={cart[item.id]}
                             item={item} 
-                            sectionDisabled={disabledReason}
+                            sectionDisabled={!!disabledReason}
                             navigateToProductDetail={(fItem: FoodItem) => navigateToProductDetail(!!disabledReason, fItem)} 
                             addToCart={(pItem: FoodItem) => addToCart(pItem)} 
                             removeFromCart={(pItem: FoodItem) => removeFromCart(pItem)}

@@ -18,6 +18,13 @@ import { AppContext } from './src/state';
 import { fetchMenu } from './src/api';
 const Stack = createNativeStackNavigator<NavigationScreenPropsType>();
 
+export const RootNavigator = () => (
+  <Stack.Navigator>
+    <Stack.Screen name="Home" component={MenuScreen} />
+    <Stack.Screen name="Detail" component={DetailScreen} />
+  </Stack.Navigator>
+)
+
 function App(): React.JSX.Element {
   const [cart, updateCart] = useState<CartState>({})
   const [foodSection, setFoodSection] = useState<SectionItem[]>([])
@@ -25,7 +32,7 @@ function App(): React.JSX.Element {
   useEffect(() => {
     fetchMenu().then((value: SectionItem[]) => {
       setFoodSection(value)
-  })
+    })
   },[])
 
   const dispatch = (action: dispatchActionType) => {
@@ -53,10 +60,7 @@ function App(): React.JSX.Element {
     <SafeAreaView style={{flex: 1}}>
       <AppContext.Provider value={{state, dispatch}}>
         <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen name="Home" component={MenuScreen} />
-            <Stack.Screen name="Detail" component={DetailScreen} />
-          </Stack.Navigator>
+          <RootNavigator />
         </NavigationContainer>
       </AppContext.Provider>
     </SafeAreaView>

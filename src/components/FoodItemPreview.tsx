@@ -3,18 +3,20 @@ import { View, Text, StyleSheet, Image, Dimensions, TouchableOpacity, GestureRes
 
 import { CartItem, FoodItem } from "../utils/types"
 const {width, height} = Dimensions.get('screen')
-const FoodItemPreview = ({item, cartItem, navigateToProductDetail, addToCart, sectionDisabled, removeFromCart}: {item: FoodItem, navigateToProductDetail: (pItem: FoodItem) => void, addToCart: (pItem: FoodItem) => void, removeFromCart: (pItem: FoodItem) => void, cartItem: CartItem, sectionDisabled: string}) => {
+const FoodItemPreview = ({item, cartItem, navigateToProductDetail, addToCart, sectionDisabled, removeFromCart}: {item: FoodItem, navigateToProductDetail: (pItem: FoodItem) => void, addToCart: (pItem: FoodItem) => void, removeFromCart: (pItem: FoodItem) => void, cartItem: CartItem, sectionDisabled: boolean}) => {
     let actionButton;
+    
     const soldOut = item.itemStock.quantityLeft == 0;
+    
     if (!soldOut) {
         if (cartItem && cartItem.quantity > 0) {
             actionButton = (
                 <View style={styles.cardFunctions}>
-                   <TouchableOpacity onPress={() => removeFromCart(item)}>
+                   <TouchableOpacity testID={`remove-cart-${item.id}`} onPress={() => removeFromCart(item)}>
                         <Text style={styles.cartAction}>-</Text>
                     </TouchableOpacity>
-                    <Text style={styles.cartQuantity}>{cartItem.quantity}</Text>
-                    <TouchableOpacity onPress={() => addToCart(item)}>
+                    <Text style={styles.cartQuantity} testID={`quantity-cart-${item.id}`}>{cartItem.quantity}</Text>
+                    <TouchableOpacity testID={`add-cart-${item.id}`} onPress={() => addToCart(item)}>
                         <Text style={styles.cartAction}>+</Text>
                     </TouchableOpacity>
                 </View>
@@ -27,7 +29,7 @@ const FoodItemPreview = ({item, cartItem, navigateToProductDetail, addToCart, se
             )
         } else {
             actionButton = (
-                <TouchableOpacity style={styles.addButton} onPress={() => addToCart(item)}>
+                <TouchableOpacity style={styles.addButton} testID={`add-cart-button-${item.id}`} onPress={() => addToCart(item)}>
                     <Text style={styles.addText}>Add</Text>
                 </TouchableOpacity>
             )
@@ -43,7 +45,7 @@ const FoodItemPreview = ({item, cartItem, navigateToProductDetail, addToCart, se
 
     const price = item.unitPriceFractional/100;
     return (
-        <TouchableOpacity style={styles.item} onPress={() => navigateToProductDetail(item)}>
+        <TouchableOpacity testID={`food-card-${item.id}`} style={styles.item} onPress={() => navigateToProductDetail(item)}>
             <Image src={item.imageUrl} style={styles.imagePreview}/>
             <View style={styles.itemTextContainer}>
                 <Text style={styles.title} numberOfLines={2}>{item.label}</Text>

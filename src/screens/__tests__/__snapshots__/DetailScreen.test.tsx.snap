@@ -1,0 +1,896 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render DetailScreen with disabled section 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "rgb(255, 254, 250)",
+                "flex": 1,
+              }
+            }
+          >
+            <RCTScrollView
+              contentContainerStyle={{}}
+              style={
+                {
+                  "flex": 1,
+                }
+              }
+            >
+              <View>
+                <Image
+                  resizeMode="contain"
+                  src="https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt"
+                  style={
+                    {
+                      "height": 562.5,
+                      "width": 750,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "paddingHorizontal": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "fontSize": 20,
+                        "marginVertical": 10,
+                      }
+                    }
+                    testID="item-label"
+                  >
+                    Rasa Sayang Burg
+                  </Text>
+                  <View
+                    style={
+                      [
+                        {},
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                    testID="html"
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                      testID="body"
+                    >
+                      <Text
+                        allowFontScaling={true}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "fontSize": 14,
+                            },
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          *Patty is NOT allium-free. You can opt for allium-free patty. 
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          *Option to remove onions.
+                        </Text>
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "marginHorizontal": 20,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": true,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(250, 85, 83)",
+                    "borderRadius": 4,
+                    "flex": 1,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "white",
+                    }
+                  }
+                >
+                  Not Available
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Detail"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
+
+exports[`render DetailScreen with mock data 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "rgb(255, 254, 250)",
+                "flex": 1,
+              }
+            }
+          >
+            <RCTScrollView
+              contentContainerStyle={{}}
+              style={
+                {
+                  "flex": 1,
+                }
+              }
+            >
+              <View>
+                <Image
+                  resizeMode="contain"
+                  src="https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt"
+                  style={
+                    {
+                      "height": 562.5,
+                      "width": 750,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "paddingHorizontal": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "fontSize": 20,
+                        "marginVertical": 10,
+                      }
+                    }
+                    testID="item-label"
+                  >
+                    Rasa Sayang Burg
+                  </Text>
+                  <View
+                    style={
+                      [
+                        {},
+                        undefined,
+                        undefined,
+                      ]
+                    }
+                    testID="html"
+                  >
+                    <View
+                      style={
+                        [
+                          {},
+                          undefined,
+                          undefined,
+                        ]
+                      }
+                      testID="body"
+                    >
+                      <Text
+                        allowFontScaling={true}
+                        selectable={false}
+                        style={
+                          [
+                            {
+                              "fontSize": 14,
+                            },
+                            undefined,
+                            undefined,
+                          ]
+                        }
+                      >
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          Marrying great taste and sustainability, the 100% plant-based burger features Quorn's meat-free burger patty packed with the goodness of mycoprotein - a nutritious protein source that is high in protein and fibre, and low in saturated fat.
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          Paired with a special, vegan sunny-side up egg, the burger is topped with fresh cucumber slices, a generous dollop of kampong sambal sauce, sweet caramelized onions, creamy vegan aioli, all sitting on a bed of crunchy lettuce and sandwiched between a fresh wholemeal bun.
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          *Patty is NOT allium-free. You can opt for allium-free patty. 
+                        </Text>
+                        <Text
+                          testID="br"
+                        >
+                          
+
+                        </Text>
+                        <Text
+                          allowFontScaling={true}
+                          selectable={false}
+                          style={
+                            [
+                              {
+                                "fontSize": 14,
+                              },
+                              undefined,
+                              undefined,
+                            ]
+                          }
+                        >
+                          *Option to remove onions.
+                        </Text>
+                      </Text>
+                    </View>
+                  </View>
+                </View>
+              </View>
+            </RCTScrollView>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "marginHorizontal": 20,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": undefined,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "rgb(250, 85, 83)",
+                    "borderRadius": 4,
+                    "flex": 1,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                  }
+                }
+                testID="add-cart-button"
+              >
+                <Text
+                  style={
+                    {
+                      "color": "white",
+                    }
+                  }
+                >
+                  Add
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Detail"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;
+
+exports[`render DetailScreen with soldout state section 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "rgb(255, 254, 250)",
+                "flex": 1,
+              }
+            }
+          >
+            <RCTScrollView
+              contentContainerStyle={{}}
+              style={
+                {
+                  "flex": 1,
+                }
+              }
+            >
+              <View>
+                <Image
+                  resizeMode="contain"
+                  src="https://storage.googleapis.com/kaluga-core-active-storage/9uvvn2dj2x6y28uqkw7e1gs9bnkt"
+                  style={
+                    {
+                      "height": 562.5,
+                      "width": 750,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    {
+                      "flex": 1,
+                      "paddingHorizontal": 20,
+                    }
+                  }
+                >
+                  <Text
+                    style={
+                      {
+                        "fontSize": 20,
+                        "marginVertical": 10,
+                      }
+                    }
+                    testID="item-label"
+                  >
+                    Rasa Sayang Burg
+                  </Text>
+                  <Text
+                    style={
+                      {
+                        "lineHeight": 21,
+                      }
+                    }
+                  >
+                    Description not available
+                  </Text>
+                </View>
+              </View>
+            </RCTScrollView>
+            <View
+              style={
+                {
+                  "flexDirection": "row",
+                  "marginHorizontal": 20,
+                }
+              }
+            >
+              <View
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": true,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={false}
+                onClick={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#fdcece",
+                    "borderRadius": 4,
+                    "flex": 1,
+                    "height": 40,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    {
+                      "color": "white",
+                    }
+                  }
+                >
+                  Sold out
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Detail"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

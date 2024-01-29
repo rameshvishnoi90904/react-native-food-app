@@ -29,11 +29,11 @@ const DetailScreen = ({route}: Props) => {
             actionButton = (
                 actionButton = (
                     <View style={[styles.cardFunctions, {marginRight: 4}]}>
-                        <TouchableOpacity onPress={() => removeFromCart()}>
+                        <TouchableOpacity testID="remove-cart" onPress={() => removeFromCart()}>
                             <Text style={styles.cartAction}>-</Text>
                         </TouchableOpacity>
                         <Text style={styles.cartQuantity}>{currentCart.quantity}</Text>
-                        <TouchableOpacity onPress={() => addToCart()}>
+                        <TouchableOpacity testID="add-cart" onPress={() => addToCart()}>
                             <Text style={styles.cartAction}>+</Text>
                         </TouchableOpacity>
                     </View>
@@ -52,7 +52,7 @@ const DetailScreen = ({route}: Props) => {
             )
         } else {
             actionButton = (
-                <TouchableOpacity style={styles.addButton} onPress={addToCart}>
+                <TouchableOpacity testID="add-cart-button" style={styles.addButton} onPress={addToCart}>
                     <Text style={styles.addText}>Add</Text>
                 </TouchableOpacity>
             )
@@ -71,7 +71,7 @@ const DetailScreen = ({route}: Props) => {
             <ScrollView style={{flex: 1,}} contentContainerStyle={{}}>
                 <Image src={item.imageUrl} style={styles.imagePreview} resizeMode="contain"/>
                 <View style={styles.textContainer}>
-                    <Text style={styles.header}>{item.label}</Text>
+                    <Text style={styles.header} testID="item-label">{item.label}</Text>
                     {
                         item.description ?
                         <RenderHtml
